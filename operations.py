@@ -20,6 +20,7 @@ def horizontal_flip(image_array: ndarray):
     # horizontal flip doesn't need skimage, it's easy as flipping the image array of pixels !
     return image_array[:, ::-1]
 
+
 # dictionary of the transformations functions we defined earlier
 available_transformations = {
     'rotate': random_rotation,
